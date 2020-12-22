@@ -31,7 +31,7 @@
 ## Installation
 
 ```bash
-$ npm install
+$ npm install in backend and frontend
 
 For windows users: install the win-node-env NPM package globally
 ```
@@ -39,8 +39,9 @@ For windows users: install the win-node-env NPM package globally
 ## Running the app
 
 ```bash
+# run scripts separately in backend/frontend
 # development
-$ npm run start:dev
+$ npm run start
 
 # production mode
 $ npm run start:prod

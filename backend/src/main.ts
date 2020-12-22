@@ -17,6 +17,7 @@ async function bootstrap() {
 
   const port = process.env.PORT || serverConfig.port;
   await app.listen(port);
+  logger.log(`Env: ${process.env.NODE_ENV}`);
   logger.log(`Application listening on port ${port}`);
 }
 bootstrap();
