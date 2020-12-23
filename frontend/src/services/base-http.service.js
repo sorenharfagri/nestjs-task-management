@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 export default class BaseHttpService {
-  //aws deployed backend http://nestjs-task-management.eu-north-1.elasticbeanstalk.com
+  //aws deployed backend http://nesttaskmanagement-env.eba-c7v3keyw.eu-west-1.elasticbeanstalk.com/
   BASE_URL = 'http://localhost:3000';
   _accessToken = null;
 
